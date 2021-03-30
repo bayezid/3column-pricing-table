@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.pricing-table-wrap {
+    margin: 0;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.pricing-table {
+    display: block;
+}
+.pricing-table::after,
+.pricing-table::before {
+    display: block;
+    clear: both;
+    content: "";
+}
+.pricing-col {
+    float: left;
+    width: 33.33%;
+}
+.price-title {
+    margin-bottom: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.price-title p {
+    margin: 0;
+    padding-bottom: 5px;
+}
+.price-title .price {
+    font-size: 20px;
+    font-weight: bold;
+}
+.pricing-button .btn-price {
+    display: block;
+    background: #eee;
+    text-align: center;
+    padding: 10px;
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.price-body h2 {
+    font-size: 22px;
+    margin: 0;
+    padding-bottom: 15px;
+}
+.price-body p {
+    margin: 0;
+    font-size: 15px;
+}
+.price-body ul {
+    list-style: none;
+}
+.price-body ul li {
+    position: relative;
+    padding-bottom: 10px;
+}
+.price-body ul li::after {
+    content: '';
+    background-image: url(images/checkmark.png);
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    position: absolute;
+    left: -35px;
+    top: 2px;
+}
+.pricing-wrap {
+    margin: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+.pricing-content {
+    padding: 15px;
+}
+.pricing-img {
+    text-align: center;
+}
+.pricing-img img {
+    max-width: 100%;
+}
+.price-body {
+    padding-top: 20px;
+}
+.featured .pricing-wrap {
+    border: 1px solid #ff8d00;
+}
+.featured .pricing-wrap .btn-price {
+    background: #ff8d00;
+    color: #fff;
+}
+#screenshot{
+    position:absolute;
+    border:1px solid #ccc;
+    background:rgb(255, 255, 255);
+    padding:5px;
+    display:none;
+    color:#000;
+    max-width: 220px;
+    }
+    .screenshot{
+        text-decoration: underline;
+    }
+    #screenshot img {
+        max-width: 100%;
+    }
+
+@media (max-width: 767px) {
+    .pricing-col {
+        width: 50%;
+    }
+    .clearfix {
+        display: block;
+        overflow: hidden;
+        width: 100%;
+    }
+}
+@media (max-width:480px) {
+    .pricing-col {
+        width: 100%;
+    }
+    .price-title.min-height {
+        height: auto !important;
+    }
+}

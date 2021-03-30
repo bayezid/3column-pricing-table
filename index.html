@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <link rel="stylesheet" href="style.css">`
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="pricing-table-wrap">
+        <div class="container">
+            <div class="pricing-table">
+                <!--start 1st column-->
+                <div class="clearfix"></div>
+                <div class="pricing-col featured">
+                    <div class="pricing-wrap">
+                        <div class="pricing-img">
+                            <img src="images/Monitor Screen 3 .jpg" alt="">
+                        </div>
+                        <div class="pricing-content">
+                            <div class="price-title max-height">
+                                <p><span class="price">$39</span> /month with partnet $79/month without a partner. Reguler price <span class="price"><del>$425</del></span> Setup fee <span class="price"><del>$299</del></span></p>
+                                <p></p>
+                                <p><span class="price">$0.38</span> 4x6 postcard with postage per partner, $0.76 full price</p>
+                            </div>
+                            <div class="pricing-button">
+                                <a href="#" class="btn-price">TRY IT FREE</a>
+                            </div>
+                            <div class="price-body">
+                                <a class="screenshot" rel="images/3.png" title="The Special All-In-One Co-Marketing Platform That Will Help You To Close More Homes Without The Pain and Complexity of Doing all the Marketing Yourself."><h2>All in One Co-marketing</h2></a>
+                                <p>Get More Leads and Refferals, Split Cost with Your Lender</p>
+                                <ul>
+                                    <li>14 days free trail, no contracts</li>
+                                    <li>Agent profile with lead capture</li>
+                                    <li>Just Listed/Sold lead system</li>
+                                    <li>Home Value Automation</li>
+                                    <li>Home Value lead nurture</li>
+                                    <li>Share the Cost Patner option</li>
+                                    <li>Market Expert Infographic Automation</li>
+                                    <li>Lead Gen Home Search</li>
+                                    <li>Home Deals leads capture</li>
+                                    <li>Homes by School District lead capture</li>
+                                    <li>Signs to Leads Riders</li>
+                                    <li>Loan Wizard Lead Capture</li>
+                                    <li>Leads to Gold Insights and Conversion</li>
+                                    <li>Partial to full lead conversion</li>
+                                    <li>Lead Magnet Ebook with Autoresponders</li>
+                                    <li>Ziro-Edit postcard Automation</li>
+                                    <ul>
+                                        <li>$0.38 per partner ($0.76 full price) Postcard 4x6 First Class</li>
+                                        <li>$0.44 per partner ($0.88 full price) Postcard 6x9 Standard Class</li>
+                                        <li>$0.54 per partner ($1.08 full price) Postcard 6x9 First Class</li>
+                                        <li>$0.54 per partner ($1.08 full price) Postcard 6x9 First Class</li>
+                                    </ul>  
+                                    <li>Targeted renter and seller lists $0.8 per record</li>
+                                    <li>Facebook Lead Geneneration option</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- end col -->
+                <div class="pricing-col">
+                    <div class="pricing-wrap">
+                        <div class="pricing-img">
+                            <img src="images/2.1.png" alt="">
+                        </div>
+                        <div class="pricing-content">
+                            <div class="price-title min-height">
+                                <p><span class="price">$0</span> /month, pay per postcard</p>
+                                <p><span class="price">$0.85</span> 4x6 postcard with postage</p>
+                            </div>
+                             
+                            <div class="pricing-button">
+                                <a href="#" class="btn-price">SIGN UP NOW</a>
+                            </div>
+                            <div class="price-body">
+                                <h2>Postcards with Lead Capture</h2>
+                                <p>Unique Lead Capture Postcard withLanding Page</p>
+                                <ul>
+                                    <li>14 days trial, no credit card requered</li>
+                                    <li>Agent profile with lead capture</li>
+                                    <li>Just Listed/Sold lead system</li>
+                                    <li>Home Value Automation</li>
+                                    <li>Postcard 4x6 First Class mailed $0.85</li>
+                                    <li>Postcard 6x9 Standard Class mailed $1</li>
+                                    <li>Postcard 6x9 First Class mailed $1.25</li>
+                                    <li>Targeted renter and seller lists $0.10 per record</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="pricing-col">
+                    <div class="pricing-wrap">
+                        <div class="pricing-img">
+                            <img src="images/1.png" alt="">
+                        </div>
+                        <div class="pricing-content">
+                            <div class="price-title min-height">
+                                <p><span class="price">$0 </span></p>
+                            </div>
+                            <div class="pricing-button">
+                                <a href="#" class="btn-price">SIGN UP NOW</a>
+                            </div>
+                            <div class="price-body">
+                                <h2>Profile Page</h2>
+                                <p>Agent profile with lead capture</p>
+                                <ul>
+                                    <li>Free</li>
+                                    <li>Targeted renter and seller lists $0.20 per record</li>
+                                </ul>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+    this.screenshotPreview = function(){    
+        /* CONFIG */
+            xOffset = 10;
+            yOffset = 30;
+            
+        /* END CONFIG */
+        $(".screenshot").hover(function(e){
+            this.t = this.title;
+            this.title = "";    
+            var c = (this.t != "") ? "" + this.t : "";
+            $("body").append("<div id='screenshot'><img src='"+ this.rel +"' alt='url preview' /><p>"+ c +"</p></div>");                                
+            $("#screenshot")
+                .css("top",(e.pageY - xOffset) + "px")
+                .css("left",(e.pageX + yOffset) + "px")
+                .fadeIn("fast");                        
+        },
+        function(){
+            this.title = this.t;
+            $('#screenshot').remove();
+        }); 
+        $(".screenshot").mousemove(function(e){
+            $("#screenshot")
+                .css("top",(e.pageY - xOffset) + "px")
+                .css("left",(e.pageX + yOffset) + "px");
+        }); 
+
+    };
+
+
+    // starting the script on page load
+    $(document).ready(function(){
+        screenshotPreview();
+    });
+    function maxHeight() {
+        var highest = null;
+        var hi = 0;
+        $(".max-height").each(function(){
+            var h = $(this).height();
+            if(h > hi){
+                hi = h;
+                highest = $(this);  
+            }    
+        });
+        return hi;
+    }
+    $(".min-height").height(maxHeight());
+    $( window ).resize(function() {
+        $(".min-height").height(maxHeight());
+    });
+    </script>
+</body>
+</html>
