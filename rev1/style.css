@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.pricing-table-wrap {
+    margin: 0;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.pricing-table {
+    display: block;
+}
+.pricing-table::after,
+.pricing-table::before {
+    display: block;
+    clear: both;
+    content: "";
+}
+.pricing-col {
+    float: left;
+    width: 50%;
+}
+.price-title {
+    margin-bottom: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.price-title p {
+    margin: 0;
+    padding-bottom: 5px;
+}
+.price-title .price {
+    font-size: 20px;
+    font-weight: bold;
+}
+.pricing-button .btn-price {
+    display: block;
+    background: #eee;
+    text-align: center;
+    padding: 10px;
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.price-body h2 {
+    font-size: 22px;
+    margin: 0;
+    padding-bottom: 15px;
+}
+.price-body p {
+    margin: 0;
+    font-size: 15px;
+}
+.price-body ul {
+    list-style: none;
+}
+.price-body ul li {
+    position: relative;
+    padding-bottom: 10px;
+}
+.price-body ul li::after {
+    content: '';
+    background-image: url(images/checkmark.png);
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    position: absolute;
+    left: -35px;
+    top: 2px;
+}
+.pricing-wrap {
+    margin: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+.pricing-content {
+    padding: 15px;
+}
+.pricing-img {
+    text-align: center;
+}
+.pricing-img img {
+    max-width: 100%;
+}
+.price-body {
+    padding-top: 20px;
+}
+.featured .pricing-wrap {
+    border: 1px solid #ff8d00;
+}
+.featured .pricing-wrap .btn-price {
+    background: #ff8d00;
+    color: #fff;
+}
+#screenshot{
+    position:absolute;
+    border:1px solid #ccc;
+    background:rgb(255, 255, 255);
+    padding:5px;
+    display:none;
+    color:#000;
+    max-width: 420px;
+    text-align: justify;
+    }
+    .screenshot{
+        text-decoration: underline;
+    }
+    #screenshot img {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer_view{
+        padding: 10px;
+    }
+    .brp{
+        margin: 0;
+        padding: 0;
+    }
+    .brp p {
+        font-size: 0.7rem !important;
+        line-height: 1 !important;
+    }
+    .broker_reciprocity {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1.125rem;
+        width: 6.15625rem;
+    }
+
+    
+    .footer, .post {
+        background: #fff;
+        text-align: center;
+        padding: 10px 15px 20px;
+        position: relative;
+        z-index: 1052;
+    }
+    .f-links{
+        text-align: center;
+    }
+    .footertext{
+        text-align: center;
+    }
+    
+
+@media (max-width: 767px) {
+    .pricing-col {
+        width: 50%;
+    }
+    .clearfix {
+        display: block;
+        overflow: hidden;
+        width: 100%;
+    }
+    .flip{
+        display: block !important;
+    }
+    .single-flip-item{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+@media (max-width:480px) {
+    .pricing-col {
+        width: 100%;
+    }
+    .price-title.min-height {
+        height: auto !important;
+    }
+   
+}
+
+.flip{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 10px;
+}
+
+.single-flip-item{
+    float: left;
+    padding: 5px;
+    
+    border: 1px solid lightcoral;
+}
+.flip-item {
+    position: relative;
+  
+  }
+  
+  
+  .flip-front-text{
+  position: relative;
+  display: block;
+  margin: auto;
+  padding-top: 50%;
+  box-sizing: border-box;
+    width: 100%;
+    height: 386px;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,130,253,1) 100%);
+    color:white;
+    font-size: 22px;
+    padding-left: 1px;
+    font-weight: 700;
+    text-align: center;
+    
+  
+  }
+  
+  .flip-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .flip-item:hover .flip-overlay {
+    height: 100%;
+  }
+  
+  .flip-back-text {
+    box-sizing: border-box;
+    color: black;
+    font-size: 15px;
+    position: relative;
+    padding: 5px;
+    text-align: justify;
+  }
+  .featureheading{
+      text-align: center;
+      font-size: 36px;
+  }
+ 
+  .single-flip-item .flip-item img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 98%;
+  }
