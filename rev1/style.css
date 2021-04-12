@@ -221,6 +221,9 @@ body {
     
   
   }
+  .flip-back-text-heading{
+      text-align: center;
+  }
   
   .flip-overlay {
     position: absolute;
