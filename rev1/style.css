@@ -72,7 +72,7 @@ body {
 }
 .price-body ul li::after {
     content: '';
-    background-image: url(images/checkmark.png);
+    background-image: url(images/checkmark.webp);
     width: 20px;
     height: 20px;
     background-size: cover;
