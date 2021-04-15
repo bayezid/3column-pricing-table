@@ -296,3 +296,15 @@ body {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
   }
+  #more {
+      display: none;
+    }
+
+@media (max-width: 767px){
+    #more{
+        display: block;
+    }
+    #myBtn{
+        display: none;
+    }
+}
