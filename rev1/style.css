@@ -303,6 +303,7 @@ body {
 #myBtn{
     border: none;
     background: none;
+    color: blue;
 }
 .down-arrow{
     width: 38px;
