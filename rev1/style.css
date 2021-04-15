@@ -300,6 +300,14 @@ body {
       display: none;
     }
 
+#myBtn{
+    border: none;
+    background: none;
+}
+.down-arrow{
+    width: 38px;
+}
+
 @media (max-width: 767px){
     #more{
         display: block;
