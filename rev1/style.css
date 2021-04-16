@@ -251,7 +251,11 @@ body {
   }
   .featureheading{
       text-align: center;
-      font-size: 36px;
+      font-size: 30px;
+  }
+  .faq-dextop-featureheading{
+    text-align: center;
+    font-size: 30px;
   }
  
   .single-flip-item .flip-item img{
@@ -309,6 +313,9 @@ body {
     width: 120px;
     margin-left: 32px;
 }
+.faq-mobile-featureheading{
+    display:none
+}
 
 @media (max-width: 767px){
     #more{
@@ -317,5 +324,13 @@ body {
     #myBtn{
         display: none;
     }
-    
+    .faq-mobile-featureheading{
+        display: inline-block;
+        margin: 29px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .faq-dextop-featureheading{
+        display: none;
+    }
 }
