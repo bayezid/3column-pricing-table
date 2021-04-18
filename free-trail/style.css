@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+h3{
+    font-size: 20px;
+    color: darkgray;
+}
+h2{
+    font-size: 35px;
+    color: #666666;
+}
+.bold-text{
+    color: #000000;
+}
+.welcometext{
+    width: 60%;
+    float: left;
+    padding: 31px;
+    margin-top: 30px;
+    
+}
+.welcometext-p{
+    font-size: 19px;
+    font-weight: 400;
+}
+.monitorscreen {
+    width: 40%;
+    float: right;
+    margin-left: 0px;
+    text-align: right;
+    margin-top: 80px;
+}
+.monitor-image {
+    max-width: 90%;
+}
+.item-list {
+    font-size: 19px;
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+}
+.item-list ul{
+    line-height: 33px;
+}
+.ebook-images {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.ebook-images img {
+    width: 83%;
+    margin-left: 44px;
+}
+button {
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 102px;
+    background-color: blue;
+    border: blue;
+    margin-top: 4pc;
+}
+button:hover{
+    background-color: coral;
+}
+ul {
+    list-style: none;
+    margin: 0;
+}
+.item-list ul li {
+    padding-left: 50px;
+    position: relative;
+}
+.item-list ul li:before {
+    background-image: url('images/checkmark.png');
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-size: 100%;
+    position: absolute;
+    left: 0;
+    background-repeat: no-repeat;
+    top: 6px;
+    background-position: center;
+}
