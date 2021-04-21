@@ -310,13 +310,18 @@ body {
     background: none;
     color: blue;
     outline: none;
+    margin-left: 30px;
 }
 .down-arrow{
     width: 120px;
-    margin-left: 32px;
 }
 .faq-mobile-featureheading{
     display:none
+}
+.see-all-features-button {
+    margin-left: 38px;
+    color: black;
+    text-decoration: underline;
 }
 
 @media (max-width: 767px){
