@@ -92,6 +92,7 @@ body {
 }
 .pricing-img img {
     max-width: 100%;
+    width: -webkit-fill-available;
 }
 .price-body {
     padding-top: 20px;
@@ -196,7 +197,7 @@ body {
     float: left;
     padding: 5px;
     
-    border: 1px solid lightcoral;
+    border: 1px solid #ff8d00;
 }
 .flip-item {
     position: relative;
@@ -308,6 +309,7 @@ body {
     border: none;
     background: none;
     color: blue;
+    outline: none;
 }
 .down-arrow{
     width: 120px;
