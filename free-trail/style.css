@@ -9,33 +9,31 @@ body {
     box-sizing: border-box;
 }
 .container {
-    max-width: 1170px;
+    max-width: 768px;
     margin: 0 auto;
 }
 h3{
-    font-size: 20px;
+    font-size: 13px;
     color: darkgray;
 }
 h2{
-    font-size: 35px;
+    font-size: 18px;
     color: #666666;
 }
 .bold-text{
     color: #000000;
 }
 .welcometext{
-    width: 60%;
+    width: 45%;
     float: left;
-    padding: 31px;
-    margin-top: 30px;
     
 }
 .welcometext-p{
-    font-size: 19px;
+    font-size: 15px;
     font-weight: 400;
 }
 .monitorscreen {
-    width: 40%;
+    width: 55%;
     float: right;
     margin-left: 0px;
     text-align: right;
@@ -45,13 +43,12 @@ h2{
     max-width: 90%;
 }
 .item-list {
-    font-size: 19px;
+    font-size: 13px;
     float: left;
-    width: 50%;
-    margin-top: 20px;
+    margin-left: -33px;
 }
 .item-list ul{
-    line-height: 33px;
+    line-height: 23px;
 }
 .ebook-images {
     width: 50%;
@@ -69,10 +66,10 @@ button {
     padding: 8px 16px;
     border-radius: 5px;
     float: right;
-    margin-right: 102px;
+    margin-right: 0px;
     background-color: blue;
     border: blue;
-    margin-top: 4pc;
+    margin-top: 1pc;
 }
 button:hover{
     background-color: coral;
@@ -82,7 +79,7 @@ ul {
     margin: 0;
 }
 .item-list ul li {
-    padding-left: 50px;
+    padding-left: 22px;
     position: relative;
 }
 .item-list ul li:before {
@@ -91,10 +88,16 @@ ul {
     width: 20px;
     height: 20px;
     display: block;
-    background-size: 100%;
+    background-size: 78%;
     position: absolute;
     left: 0;
     background-repeat: no-repeat;
-    top: 6px;
+    top: 1px;
     background-position: center;
+}
+.clearix {
+    overflow: hidden;
+    border: 1px solid #222;
+    margin: 30px 0;
+    padding: 15px;
 }
