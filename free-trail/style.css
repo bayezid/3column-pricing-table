@@ -101,3 +101,40 @@ ul {
     margin: 30px 0;
     padding: 15px;
 }
+.mobile-monitorscreen{
+    display: none;
+}
+@media screen and (max-width: 767px){
+    .monitorscreen{
+        display: none;
+    }
+    .mobile-monitorscreen{
+        display: block;
+    }
+    .welcometext{
+        width: 100%;
+    }
+    h3{
+        margin-left: 20px;
+    }
+    h2{
+        margin-left: 20px;
+    }
+    .container{
+        max-width: 414px;
+    }
+    .item-list{
+        font-size: 15px;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .clearix{
+        border-radius: 29px;
+    }
+    .top-part{
+        padding: 10px;
+    }
+}
