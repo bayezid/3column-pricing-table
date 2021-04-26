@@ -62,8 +62,9 @@ img {
 }
 a.btn-cta {
     display: inline-block;
-    padding: 30px 84px;
-    background: coral;
+    padding: 19px 59px;
+    border: 1px solid #f47a20;
+    background: #f47a20;
     color: #ffffff;
     text-decoration: none;
     font-weight: 900;
@@ -71,7 +72,11 @@ a.btn-cta {
     font-size: 17px;
 }
 a.btn-cta:hover{
-    background: darkcyan;
+    text-shadow:1px 1px 4px rgba(0,0,0,.5);
+    background:#fff;
+    border:1px solid #f47a20;
+    border-color:#f47a20;
+    color:#f47a20;
 }
 .item-image {
     padding-right: 85px;
@@ -102,6 +107,9 @@ h1{
     text-align: center;
     margin-top: 50px;
 }
+.title-hr{
+    display: none;
+}
 @media screen and (max-width: 768px){
     .row.row-three {
         padding: 20px;
@@ -116,7 +124,38 @@ h1{
     .half:last-child{
         text-align: center;
     }
+    .number-item.arrow {
+        margin-top: 28px;
+    }
+    .title-hr{
+        display: block;
+        width: 20%;
+    }
+    .half:last-child{
+        padding: 16px 30px;
+    }
     
 }
 
-
+@media screen and (max-width: 500px){
+    .row.row-three {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .number-item.arrow {
+        transform: rotate(90deg);
+        margin-bottom: 60px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 26px;
+    }
+    .title-hr{
+        display: block;
+        width: 50%;
+    }
+    .top-section {
+        margin-top: 15px;
+    }
+}
