@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* PRESET CLASSES */
@@ -46,9 +47,13 @@ ul.list-inline li {
     background-image: url('images/hero.png');
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 70px;
 }
 .main-nav-section {
     padding: 30px 50px;
+}
+.iframe-area {
+    margin-top: -50px;
 }
 .home-iframe {
     background-image: url('images/agent-website-laptop.png');
@@ -57,10 +62,95 @@ ul.list-inline li {
     margin: 0 auto;
     position: relative;
 }
-iframe {
+.home-iframe iframe {
     position: absolute;
-    top: -42px;
+    top: -47px;
     left: 1px;
     display: block;
     transform: scale(.76);
+}
+.list-inline li a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: 600;
+}
+.service-header {
+    font-size: 35px;
+    font-weight: 600;
+}
+.service-img{
+    padding: 15px;
+}
+.service-img img{
+    width: 100%;
+}
+.service-body{
+    text-align: center;    
+}
+.service-body a {
+    display: block;
+    padding: 8px 55px;
+    border: 1px solid #f47a20;
+    background: #f47a20;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 900;
+    border-radius: 13px;
+    font-size: 17px;
+    max-width: 200px;
+    margin: 0 auto;
+}
+.service-body a:hover{
+    text-shadow:1px 1px 4px rgba(0,0,0,.5);
+    background:#fff;
+    border:1px solid #f47a20;
+    border-color:#f47a20;
+    color:#f47a20;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+img.downarrow {
+    width: 28px;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation: bouncing-arrow-animation 1.8s ease-in-out infinite;
+    animation: bouncing-arrow-animation 1.8s ease-in-out infinite;
+}
+@-webkit-keyframes bouncing-arrow-animation{
+    0%{
+        -webkit-transform:translateY(0);
+        transform:translateY(0)
+    }
+    50%{
+        -webkit-transform:translateY(18px);
+        transform:translateY(18px)
+    }100%{
+        -webkit-transform:translateY(0);
+        transform:translateY(0)
+    }
+}
+@keyframes bouncing-arrow-animation{
+    0%{
+        -webkit-transform:translateY(0);
+        transform:translateY(0)
+    }
+    50%{
+        -webkit-transform:translateY(18px);
+        transform:translateY(18px)
+    }
+    100%{
+        -webkit-transform:translateY(0);
+        transform:translateY(0)
+    }
+}
+
+.header-search ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-search ul li:first-child {
+    padding-right: 15px;
 }
