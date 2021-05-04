@@ -48,9 +48,22 @@ ul.list-inline li {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 70px;
+    
 }
 .main-nav-section {
     padding: 30px 50px;
+}
+.promo-services {
+    color: darkgray;
+}
+.header-bottom {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    
+}
+h4{
+    filter: drop-shadow(12px 12px 8px #000000);
 }
 .iframe-area {
     margin-top: -50px;
@@ -61,6 +74,7 @@ ul.list-inline li {
     height: 606px;
     margin: 0 auto;
     position: relative;
+    margin-bottom: 90px;
 }
 .home-iframe iframe {
     position: absolute;
@@ -80,6 +94,7 @@ ul.list-inline li {
 }
 .service-img{
     padding: 15px;
+    filter: drop-shadow(12px 12px 8px #000000);
 }
 .service-img img{
     width: 100%;
@@ -113,6 +128,7 @@ h3 {
 }
 img.downarrow {
     width: 28px;
+    margin-bottom: 45px;
     -webkit-transform: translateY(0);
     transform: translateY(0);
     -webkit-animation: bouncing-arrow-animation 1.8s ease-in-out infinite;
@@ -153,4 +169,76 @@ img.downarrow {
 }
 .header-search ul li:first-child {
     padding-right: 15px;
+}
+
+/* Search Box */
+.header-search {
+    position: relative;
+    margin-bottom: 18px;
+}
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    font-size: 20px;
+    width: 100%;
+    border: 3px solid #f47a20;
+    border-right: none;
+    padding: 5px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    width: 65px;
+    height: 56px;
+    border: 1px solid #f47a20;
+    background: #f47a20;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .search-icon {
+    filter: brightness(0) invert(1);
+    padding-top: 3px;
+}
+.live-demo{
+    text-align: center;
+}
+.live-demo a {
+    display: block;
+    padding: 9px 11px;
+    border: 1px solid #dfe4ee;
+    background: #006dc7;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 900;
+    border-radius: 3px;
+    font-size: 17px;
+    max-width: 96px;
+    margin: 0 auto;
+}
+.live-demo a:hover {
+    background: #0286f2;
+    transition: 0.6s;
+    -webkit-transition: .6s;
 }
