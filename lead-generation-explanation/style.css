@@ -411,3 +411,61 @@ img.downarrow {
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+/*ACCORDINE */
+.faq-mobile-featureheading {
+    display: none;
+}
+.faq-dextop-featureheading {
+    text-align: center;
+    font-size: 30px;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+.panel-lastinlist{border-bottom: 1px solid #eee;}
+    #more {
+        display: none;
+        }
+.accordion.grey {
+    background-color: #ddd;
+}
+.accordion.grey {background-color: #ddd;}
+    .active, .accordion:hover {
+        background-color: #ccc;
+    }
+    .active{background-color: #ddd;border: 1px solid #b1aaaa;}
+    
+    .accordion:after {
+        content: '\002B';
+        color: #777;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+        font-size: 16px;
+    }
+    
+    .active:after {
+        content: "\2212";
+    }
+    .featureheading {
+        text-align: center;
+        font-size: 30px;
+    }
