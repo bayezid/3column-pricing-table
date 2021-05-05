@@ -469,3 +469,36 @@ img.downarrow {
         text-align: center;
         font-size: 30px;
     }
+
+.flex-col.connect img {
+    width: 100px;
+    height: 100px;
+}
+.contact-us {
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.d-flex .connect {
+    column-gap: 51px;
+    padding: 41px 0;
+    box-shadow: 0 0 27px 0 rgb(22 36 47 / 50%);
+}
+.flex-col .connect {
+    border: 1px solid;
+}
+.d-flex.connect {
+    column-gap: 51px;
+}
+.contact-call-us h2 {
+    font-weight: 100;
+    font-size: 30px;
+    color: darkblue;
+}
+.phone-number h3 {
+    font-size: 17px;
+    color: darkblue;
+    font-weight: 500;
+}
