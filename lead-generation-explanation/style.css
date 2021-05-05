@@ -502,3 +502,14 @@ img.downarrow {
     color: darkblue;
     font-weight: 500;
 }
+.foter-text a {
+    text-decoration: none;
+}
+.footer-area {
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.phone-number h3 a {
+    text-decoration: none;
+    color: darkblue;
+}
