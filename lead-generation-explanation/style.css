@@ -54,7 +54,7 @@ ul.list-inline li {
     padding: 30px 50px;
 }
 .promo-services {
-    color: darkgray;
+    color: #466369;
 }
 .header-bottom {
     font-size: 20px;
@@ -85,12 +85,13 @@ h4{
 }
 .list-inline li a {
     text-decoration: none;
-    color: #0066cc;
+    color: #466369;
     font-weight: 600;
 }
 .service-header {
     font-size: 35px;
     font-weight: 600;
+    color: #466369;
 }
 .service-img{
     padding: 15px;
@@ -110,7 +111,7 @@ h4{
     color: #ffffff;
     text-decoration: none;
     font-weight: 900;
-    border-radius: 13px;
+    border-radius: 5px;
     font-size: 17px;
     max-width: 200px;
     margin: 0 auto;
@@ -232,7 +233,7 @@ img.downarrow {
     color: #ffffff;
     text-decoration: none;
     font-weight: 900;
-    border-radius: 3px;
+    border-radius: 5px;
     font-size: 17px;
     max-width: 96px;
     margin: 0 auto;
@@ -269,7 +270,7 @@ img.downarrow {
     color: #ffffff;
     text-decoration: none;
     font-weight: 900;
-    border-radius: 3px;
+    border-radius: 5px;
     font-size: 17px;
     max-width: 144px;
     margin: 0 auto;
@@ -287,7 +288,7 @@ img.downarrow {
     color: #ffffff;
     text-decoration: none;
     font-weight: 900;
-    border-radius: 3px;
+    border-radius: 5px;
     font-size: 17px;
     max-width: 144px;
     margin: 0 auto;  
@@ -362,7 +363,7 @@ img.downarrow {
     color: #ffffff;
     text-decoration: none;
     font-weight: 900;
-    border-radius: 3px;
+    border-radius: 5px;
     font-size: 17px;
     max-width: 140px;
     margin: 0 auto;
@@ -418,6 +419,7 @@ img.downarrow {
 .faq-dextop-featureheading {
     text-align: center;
     font-size: 30px;
+    color: #466369;
 }
 .accordion {
     background-color: #eee;
@@ -468,6 +470,7 @@ img.downarrow {
     .featureheading {
         text-align: center;
         font-size: 30px;
+        color: #466369;
     }
 
 .flex-col.connect img {
