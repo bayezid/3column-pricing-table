@@ -68,6 +68,9 @@ h4{
 .iframe-area {
     margin-top: -50px;
 }
+.home-iframe-mobile{
+    display: none;
+}
 .home-iframe {
     background-image: url('images/agent-website-laptop.png');
     width: 1033px;
@@ -83,12 +86,21 @@ h4{
     display: block;
     transform: scale(.76);
 }
+.home-iframe iframe::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge add Firefox */
+  .home-iframe iframe {
+    -ms-overflow-style: none;
+    scrollbar-width: none; /* Firefox */
+  }
 .list-inline li a {
     text-decoration: none;
     color: #466369;
     font-weight: 600;
 }
-.service-header {
+.service-header h2 {
     font-size: 35px;
     font-weight: 600;
     color: #466369;
@@ -260,7 +272,8 @@ img.downarrow {
 .from-nav {
     display: flex;
     flex-direction: row;
-    padding: 0 413px;
+    max-width: 450px;
+    margin: 0 auto;
 }
 .select-option a {
     display: block;
@@ -340,9 +353,11 @@ img.downarrow {
     display: none;
     text-align:center;
     padding-top: 96px;
+    max-width: 880px;
+    margin: 0 auto;
 }
 .mySlides img{
-    max-width: 50%;
+    max-width: 100%;
 }
 
 /* Slideshow container */
@@ -350,7 +365,7 @@ img.downarrow {
     position: relative;
     margin: auto;
     background-color: #022C54;
-    height: 800px;
+    padding-bottom: 50px;
 }
 .slider-cta {
     padding-top: 20px;
@@ -474,12 +489,12 @@ img.downarrow {
     }
 
 .flex-col.connect img {
-    width: 100px;
+    max-width: 100px;
     height: 100px;
 }
 .contact-us {
     text-align: center;
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
     margin-top: 70px;
     margin-bottom: 70px;
@@ -515,4 +530,45 @@ img.downarrow {
 .phone-number h3 a {
     text-decoration: none;
     color: darkblue;
+}
+
+@media (max-width: 767px) {
+    .home-iframe {
+        background-image: url('https://www.homesnap.com/app/img/agent-website/reservation-tool/agent-website-phone.png');
+        width: auto;
+        height: 526px;
+        max-width: 320px;
+        background-repeat: no-repeat;
+    }
+    .home-iframe iframe {
+        top: 50px;
+        left: 52px;
+        transform: none;
+        width: 220px;
+        height: 380px;
+    }
+    .form-section-wrap {
+        width: 80%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .d-flex.connect{
+        margin-left: 15px;
+    }
+}
+@media (max-width: 580px) {
+    .header-services {
+        padding: 0 50px;
+    }
+    .d-flex {
+        flex-direction: column;
+    }
+    .d-flex.connect {
+        margin: 20px;
+    }
+    .flex-col:first-child {
+        margin-bottom: 50px;
+    }
 }
