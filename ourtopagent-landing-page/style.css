@@ -368,8 +368,8 @@ a.market_update_button{
     left: -35px;
     top: 2px;
 }
-.marketing_image img{
-    width: 100%;
+.marketing_image {
+    margin-top: 1rem;
 }
 .ads_button{
     text-align: left;
