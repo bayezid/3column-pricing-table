@@ -24,6 +24,12 @@ body {
 .header{
    height: 4.5rem; 
 }
+.logo {
+    max-width: 20%;
+}
+.logo img{
+    max-width: 75%;
+}
 .page_menu a{
     text-decoration: none;
     color: #878D92;
