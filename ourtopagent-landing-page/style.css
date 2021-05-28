@@ -291,6 +291,11 @@ a.market_update_button{
     line-height: 2rem;
     font-weight: 700;
 }
+.postcard_top img {
+    max-width: 61%;
+    box-shadow: 0px 0px 7px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+}
 /*.column1 ul li{
     color: #494D50;
     font-size: 1rem;
