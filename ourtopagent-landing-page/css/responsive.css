@@ -295,3 +295,16 @@
         padding: 0 16px;
     }
 }
+@media screen and (max-width: 320px){
+    .iframe-area {
+        width: 330px;
+        margin: -80px -25px 0;
+    }
+    a.button {
+        width: 82%;
+    }
+    button#menu-button {
+        /* max-width: 40px; */
+        width: 32px;
+    }
+}
