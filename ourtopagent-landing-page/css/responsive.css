@@ -120,6 +120,9 @@
     .market_update {
         height: auto;
     }
+    .footer-logo img {
+        padding: 8px;
+    }
 }
 
 
@@ -293,6 +296,19 @@
     }
     .marketing_text {
         padding: 0 16px;
+    }
+    .postcard_top {
+        text-align: center;
+        margin-top: 0;
+    }
+    .marketing_features {
+        margin-top: 0;
+    }
+    .faq_section h3 {
+        font-size: 2rem;
+    }
+    .featureheading {
+        margin: 0;
     }
 }
 @media screen and (max-width: 320px){
