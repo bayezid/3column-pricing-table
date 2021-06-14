@@ -1,0 +1,43 @@
+<mjml>
+    <mj-body>
+        <!--Header Logo-->
+        <mj-section background-color="#F2F2F2">
+            <mj-column width="600px">
+                <mj-image width="300px" src="ourtopagent-logo.png" />
+                <mj-text font-style="normal"
+                font-size="36px"
+                font-family="montserrat"
+                color="#192833"
+                align="center"
+                font-weight="700">
+                    New Lead Requested Listings Match
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!--Email Content Added Here-->
+        
+        <!--Footer Logo-->
+        <mj-section background-color="#F2F2F2"></mj-section>
+        
+        <!--Footer Text-->
+        <mj-section>
+            <mj-column width="600px"
+                       background-color="#F2F2F2">
+              	<mj-image width="300px" src="footer-logo.png" />
+                <mj-text font-style="normal"
+                         font-size="16px"
+                         font-family="montserrat"
+                         color="#878D92"
+                         align="center"
+                         font-weight="500"
+                         line-height="40px">
+                  <a href="mailto:support@ourtopagent.com" style="color: #9B9B9B; text-decoration:none;">support@ourtopagent.com</a> <br/>
+                  <a href="https://ourtopagent.com" style="color: #9B9B9B; text-decoration:none;">ourtopagent.com</a> <br/>
+                IDXM  LLC 800 S Northwest Hwy, Barrington, IL 60010 <br/>
+                  <a href="#" style="color: #9B9B9B; text-decoration:none;">Terms of Use</a> &nbsp; &nbsp; <a href="#" style="color: #9B9B9B; text-decoration:none;">Privacy Policy</a>  
+              	</mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
