@@ -578,7 +578,7 @@ a.market_update_button {
         }
         .home-iframe:after {
             content: '';
-            background-image: url('../images/agent-website-iPad-vertical.webp');
+            background-image: url('images/agent-website-iPad-vertical.webp');
             background-size: cover;
             background-position: left top;
             display: block;
@@ -723,7 +723,7 @@ a.market_update_button {
         }
         .home-iframe:after {
             content: '';
-            background-image: url('../images/agent-website-phone.webp');
+            background-image: url('images/agent-website-phone.webp');
             background-size: cover;
             background-position: left top;
             display: block;
