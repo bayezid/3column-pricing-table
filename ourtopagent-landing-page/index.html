@@ -13,7 +13,7 @@
     <div class="wrapper">
         <div class="header">
             <div class="logo">
-                <img src="figma export/OurTopAgent4.png.png" alt="">
+                <img src="images/OurTopAgent4.png.webp" alt="">
             </div> 
             <nav class="page_menu">
                 <div class="main-menu">
@@ -24,11 +24,11 @@
                     <a href="#">Contact Us</a>
                 </div>
                 <div class="mobilemenu">
-                    <button id="menu-button"><img src="figma export/menu.png" alt=""></button>
+                    <button id="menu-button"><img src="images/menu.webp" alt=""></button>
                 </div>
             </nav>
             <div class="my_account">
-                <img src="figma export/myaccount-photo.png" alt="">
+                <img src="images/myaccount-photo.webp" alt="">
                 <span>John Herman</span>
             </div>
         </div>
@@ -45,21 +45,21 @@
                 <div class="hero_featured_items">
                 <div class="hero_item">
                     <div class="item_postcard">
-                        <img src="figma export/share-inographics.jpg" alt="">
+                        <img src="images/share-inographics.webp" alt="">
                         <p>Share a property link with infographics and statistics about the property, area and more.</p>
                         <a href="#" class="button">Share Market Updates</a>
                     </div>
                 </div>
                 <div class="hero_item">
                     <div class="item_postcard">
-                        <img src="figma export/order-poscard.png" alt="">
+                        <img src="images/order-poscard.webp" alt="">
                         <p>Assist the customer in making a decision by ordering a postcard about the property.</p>
                         <a href="#" class="button">Order Postcards</a>
                     </div>
                 </div>
                 <div class="hero_item">
                     <div class="item_postcard">
-                        <img src="figma export/order-online-ads.jpg" alt="">
+                        <img src="images/order-online-ads.webp" alt="">
                         <p>Launch a personalized advertising campaign designed exclusively for interested audiences.</p>
                         <a href="#" class="button">Order Online Ads</a>
                     </div>
@@ -69,7 +69,7 @@
                 <div class="search">
                     <input type="text" class="searchTerm" placeholder="City, Zip, Neighborhood, Address">
                     <button type="submit" class="searchButton">
-                        <img src="figma export/search.svg" class="search-icon" alt="">
+                        <img src="images/search.svg" class="search-icon" alt="">
                     </button>
                     </div>
                 </div>
@@ -91,7 +91,7 @@
     <div class="market_update">
         <div class="market_update_wrap">
             <div class="social_media">
-                <img src="figma export/market-update-social-media.jpg" alt="">
+                <img src="images/market-update-social-media.webp" alt="">
                 <h3>Share the market update <br>wherever you like</h3>
                 <div class="market_update_search">
                     <input type="text" class="market_update_searchbox" placeholder="Type City or Neiborhood">
@@ -99,7 +99,7 @@
                 <a href="#" class="market_update_button">Create Link</a>
             </div>
             <div class="market_update_area">
-                <img src="figma export/Chrome1.jpg" alt="">
+                <img src="images/Chrome1.webp" alt="">
             </div>
         </div>
     </div>
@@ -107,7 +107,7 @@
         <div class="inner">
             <div class="postcard_top">
                 <h3>Order postcards with unique content for <br>every recipient</h3>
-                <img src="figma export/postcard--list.png" alt="">
+                <img src="images/postcard--list.webp" alt="">
                 <h4>Our price includes it all:</h4>
             </div>
         </div>
@@ -145,7 +145,7 @@
         <div class="inner">
             <div class="marketing_features">
                 <div class="marketing_image">
-                    <img src="figma export/marketing-logos1.png" alt="">
+                    <img src="images/marketing-logos1.webp" alt="">
                 </div>
                 <div class="marketing_text">
                     <h3>
@@ -350,7 +350,7 @@
         <div class="footer_bottom">
             <div class="fbrow">
                 <div class="footer-logo">
-                    <img src="figma export/ourtopagentlogowhite-verticle.png" alt="">
+                    <img src="images/ourtopagentlogowhite-verticle.webp" alt="">
                 </div>
                 <div class="footer-menus">
                     <div class="fmenu">
@@ -373,6 +373,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
    <script>
+
+       //menu
+       $(document).ready(function () {
+    updateContainer();
+    $(window).resize(function() {
+        updateContainer();
+    });
+});
+function updateContainer() {
+    var $containerHeight = $(window).width();
+    if ($containerHeight <= 991) {
+        $('#menu-button').click(function() {
+            $('.main-menu').toggleClass('show-menu');
+        });
+    } else {
+        $('.main-menu').removeClass('show-menu');
+    }
+}
+
+  //end-menu
                //faq
                var acc = document.getElementsByClassName("accordion");
 var i;
